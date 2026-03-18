@@ -1,0 +1,31 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "(CMake) Launch Selected Target",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "${command:cmake.launchTargetPath}",
+			"args": [],
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal",
+			"preLaunchTask": "CMake: Build"
+		},
+		{
+			"name": "Launch Executable (Manual)",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "${input:exePath}",
+			"args": [],
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal"
+		}
+	],
+	"inputs": [
+		{
+			"id": "exePath",
+			"type": "promptString",
+			"description": "Input .exe path, e.g. ${workspaceFolder}/build/Debug/test_xxx.exe"
+		}
+	]
+}

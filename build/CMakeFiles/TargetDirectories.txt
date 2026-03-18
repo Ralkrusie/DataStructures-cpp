@@ -1,0 +1,4 @@
+E:/Code/VSCode/DataStructures/build/CMakeFiles/test_test_SingleLinkedList_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ex_Ch1_test_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ALL_BUILD.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ZERO_CHECK.dir
