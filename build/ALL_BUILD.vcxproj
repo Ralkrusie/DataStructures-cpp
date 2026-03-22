@@ -174,9 +174,37 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_Ch1_test_main.vcxproj">
-      <Project>{C0798B1F-8558-3BFA-8C82-1E2F0F57E562}</Project>
-      <Name>ex_Ch1_test_main</Name>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week3_T3_1_main.vcxproj">
+      <Project>{7177ABD3-53B4-3A7C-81D4-63AEA2ED7318}</Project>
+      <Name>ex_week3_T3_1_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week3_T3_2_main.vcxproj">
+      <Project>{8E6846D3-8619-30ED-BCB5-EB7EA0E666D3}</Project>
+      <Name>ex_week3_T3_2_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week3_T3_3_main.vcxproj">
+      <Project>{B2880E6E-4A13-34B9-8B42-2A3E9B608594}</Project>
+      <Name>ex_week3_T3_3_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week3_T3_4_main.vcxproj">
+      <Project>{0C9DE356-46CD-344B-9784-5491EA319E50}</Project>
+      <Name>ex_week3_T3_4_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week3_T3_5_main.vcxproj">
+      <Project>{3940F3EE-6FE4-3DDB-B8EE-250AC0653FB3}</Project>
+      <Name>ex_week3_T3_5_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week3_T3_6_main.vcxproj">
+      <Project>{471224F9-43A9-39AB-81ED-ED1BD543DF4A}</Project>
+      <Name>ex_week3_T3_6_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\test_test_DoubleLinkedList_main.vcxproj">
+      <Project>{E4942F6B-9B79-31A3-8FDB-7F63B5868296}</Project>
+      <Name>test_test_DoubleLinkedList_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\test_test_LinkedStack_main.vcxproj">
+      <Project>{EF78109D-85A5-39B5-91FD-A6F0B8ED9D67}</Project>
+      <Name>test_test_LinkedStack_main</Name>
     </ProjectReference>
     <ProjectReference Include="E:\Code\VSCode\DataStructures\build\test_test_SingleLinkedList_main.vcxproj">
       <Project>{2A6B6C90-6511-3E5E-B184-2B4EFA5FC46D}</Project>

@@ -5,6 +5,11 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
+# Use UTF-8 source encoding under MSVC to avoid C4819 on non-ASCII comments.
+if(MSVC)
+    add_compile_options(/utf-8)
+endif()
+
 option(BUILD_STRUCT_TESTS "Build executables in Structures/Tests" ON)
 option(BUILD_EXERCISES "Build executables in Exercises" ON)
 

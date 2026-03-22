@@ -1,4 +1,11 @@
+E:/Code/VSCode/DataStructures/build/CMakeFiles/test_test_DoubleLinkedList_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/test_test_LinkedStack_main.dir
 E:/Code/VSCode/DataStructures/build/CMakeFiles/test_test_SingleLinkedList_main.dir
-E:/Code/VSCode/DataStructures/build/CMakeFiles/ex_Ch1_test_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ex_week3_T3_1_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ex_week3_T3_2_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ex_week3_T3_3_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ex_week3_T3_4_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ex_week3_T3_5_main.dir
+E:/Code/VSCode/DataStructures/build/CMakeFiles/ex_week3_T3_6_main.dir
 E:/Code/VSCode/DataStructures/build/CMakeFiles/ALL_BUILD.dir
 E:/Code/VSCode/DataStructures/build/CMakeFiles/ZERO_CHECK.dir

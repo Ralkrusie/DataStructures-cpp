@@ -30,6 +30,12 @@ public:
     // 读取/修改指定下标元素：读取采用输出参数风格，便于表达“可能失败”。
     bool getAt(std::size_t index, T &outValue) const;
     bool setAt(std::size_t index, const T &value);
+    // 从尾部读取：reverseIndex=0 表示尾节点。
+    bool getAtFromBack(std::size_t reverseIndex, T &outValue) const;
+
+    // 双端弹出：O(1)，可直接体现 m_prev 在尾部操作中的优势。
+    bool popFront(T &outValue);
+    bool popBack(T &outValue);
 
     // 清空链表并释放节点。
     void clear();
@@ -188,32 +194,24 @@ bool DoubleLinkedList<T>::removeAt(std::size_t index) {
     }
 
     if (index == 0) {
-        Node *oldHead = m_head;
-        m_head = m_head->m_next;
+        T ignored{};
+        return popFront(ignored);
+    }
 
-        if (m_head != nullptr) {
-            m_head->m_prev = nullptr;
-        } else {
-            m_tail = nullptr;
-        }
-
-        delete oldHead;
-        --m_size;
-        return true;
+    if (index == m_size - 1) {
+        T ignored{};
+        return popBack(ignored);
     }
 
     Node *targetNode = getNodeAt(index);
     if (targetNode == nullptr) {
         return false;
     }
-    if (targetNode->m_prev != nullptr) {
-        targetNode->m_prev->m_next = targetNode->m_next;
-    }
-    if (targetNode->m_next != nullptr) {
-        targetNode->m_next->m_prev = targetNode->m_prev;
-    } else {
-        m_tail = targetNode->m_prev;
-    }
+
+    // 中间删除：双链表只需同时修复前后邻接关系。
+    targetNode->m_prev->m_next = targetNode->m_next;
+    targetNode->m_next->m_prev = targetNode->m_prev;
+
     delete targetNode;
     --m_size;
     return true;
@@ -240,6 +238,61 @@ bool DoubleLinkedList<T>::setAt(const std::size_t index, const T &value) {
     }
 
     node->m_value = value;
+    return true;
+}
+
+// 从尾部按偏移读取：reverseIndex=0 表示尾节点。
+template<typename T>
+bool DoubleLinkedList<T>::getAtFromBack(const std::size_t reverseIndex, T &outValue) const {
+    if (reverseIndex >= m_size) {
+        return false;
+    }
+
+    const std::size_t index = m_size - 1 - reverseIndex;
+    return getAt(index, outValue);
+}
+
+// O(1) 弹出头节点。
+template<typename T>
+bool DoubleLinkedList<T>::popFront(T &outValue) {
+    if (m_head == nullptr) {
+        return false;
+    }
+
+    Node *oldHead = m_head;
+    outValue = oldHead->m_value;
+    m_head = oldHead->m_next;
+
+    if (m_head != nullptr) {
+        m_head->m_prev = nullptr;
+    } else {
+        m_tail = nullptr;
+    }
+
+    delete oldHead;
+    --m_size;
+    return true;
+}
+
+// O(1) 弹出尾节点：这里直接使用 m_prev，无需从头遍历。
+template<typename T>
+bool DoubleLinkedList<T>::popBack(T &outValue) {
+    if (m_tail == nullptr) {
+        return false;
+    }
+
+    Node *oldTail = m_tail;
+    outValue = oldTail->m_value;
+    m_tail = oldTail->m_prev;
+
+    if (m_tail != nullptr) {
+        m_tail->m_next = nullptr;
+    } else {
+        m_head = nullptr;
+    }
+
+    delete oldTail;
+    --m_size;
     return true;
 }
 
@@ -272,16 +325,26 @@ bool DoubleLinkedList<T>::isEmpty() const {
 
 //---------------------------内部工具函数----------------------------
 // getNodeAt：根据 index 定位节点，越界返回 nullptr。
+// 双向优化：前半段从 head 走，后半段从 tail 逆向走。
 template<typename T>
 typename DoubleLinkedList<T>::Node *DoubleLinkedList<T>::getNodeAt(const std::size_t index) {
     if (index >= m_size) {
         return nullptr;
     }
 
-    Node *current = m_head;
-    for (std::size_t i = 0; i < index; ++i) {
-        current = current->m_next;
+    if (index < m_size / 2) {
+        Node *current = m_head;
+        for (std::size_t i = 0; i < index; ++i) {
+            current = current->m_next;
+        }
+        return current;
     }
+
+    Node *current = m_tail;
+    for (std::size_t i = m_size - 1; i > index; --i) {
+        current = current->m_prev;
+    }
+
     return current;
 }
 
@@ -291,10 +354,19 @@ const typename DoubleLinkedList<T>::Node *DoubleLinkedList<T>::getNodeAt(const s
         return nullptr;
     }
 
-    const Node *current = m_head;
-    for (std::size_t i = 0; i < index; ++i) {
-        current = current->m_next;
+    if (index < m_size / 2) {
+        const Node *current = m_head;
+        for (std::size_t i = 0; i < index; ++i) {
+            current = current->m_next;
+        }
+        return current;
     }
+
+    const Node *current = m_tail;
+    for (std::size_t i = m_size - 1; i > index; --i) {
+        current = current->m_prev;
+    }
+
     return current;
 }
 

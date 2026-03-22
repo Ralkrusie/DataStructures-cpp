@@ -104,11 +104,46 @@ void testClear() {
 	assert(!list.getAt(0, out));
 }
 
+void testStablePartitionLessThan() {
+	SingleLinkedList<int> list;
+	for (int value: {5, 1, 4, 2, 3, 2}) {
+		list.pushBack(value);
+	}
+
+	list.stablePartitionLessThan(3);
+	assert((toVector(list) == std::vector<int>{1, 2, 2, 5, 4, 3}));
+	assert(list.size() == 6);
+
+	SingleLinkedList<int> allLess;
+	for (int value: {1, 0, -1}) {
+		allLess.pushBack(value);
+	}
+	allLess.stablePartitionLessThan(10);
+	assert((toVector(allLess) == std::vector<int>{1, 0, -1}));
+
+	SingleLinkedList<int> allGreaterEqual;
+	for (int value: {7, 8, 9}) {
+		allGreaterEqual.pushBack(value);
+	}
+	allGreaterEqual.stablePartitionLessThan(3);
+	assert((toVector(allGreaterEqual) == std::vector<int>{7, 8, 9}));
+
+	SingleLinkedList<int> empty;
+	empty.stablePartitionLessThan(42);
+	assert(empty.isEmpty());
+
+	SingleLinkedList<int> single;
+	single.pushBack(5);
+	single.stablePartitionLessThan(6);
+	assert((toVector(single) == std::vector<int>{5}));
+}
+
 int main() {
 	testBasicPushAndAccess();
 	testInsertSetAndRemove();
 	testCopyAndMoveSemantics();
 	testClear();
+	testStablePartitionLessThan();
 
 	std::cout << "All SingleLinkedList tests passed.\n";
 	return 0;

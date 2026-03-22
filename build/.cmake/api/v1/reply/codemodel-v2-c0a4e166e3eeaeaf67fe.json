@@ -1,0 +1,552 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructures",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-d47ac180d1255ed8ce51.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-9a3b7cbc09ca1dab68b0.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_1_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_1_main-Debug-53094d36ed407e4ca9d8.json",
+					"name" : "ex_week3_T3_1_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_2_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_2_main-Debug-48af4896f60ed8dbd4b0.json",
+					"name" : "ex_week3_T3_2_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_3_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_3_main-Debug-80c109b3f1503ca97e53.json",
+					"name" : "ex_week3_T3_3_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_4_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_4_main-Debug-2599e83f768ea4d6628a.json",
+					"name" : "ex_week3_T3_4_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_5_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_5_main-Debug-901d416db89c385d4e10.json",
+					"name" : "ex_week3_T3_5_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_6_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_6_main-Debug-57bd5e9c1c27927f6bac.json",
+					"name" : "ex_week3_T3_6_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_DoubleLinkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_DoubleLinkedList_main-Debug-c63497fa138edf3ed34a.json",
+					"name" : "test_test_DoubleLinkedList_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_LinkedStack_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_LinkedStack_main-Debug-e65cc1417c153c4b0b94.json",
+					"name" : "test_test_LinkedStack_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_SingleLinkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_SingleLinkedList_main-Debug-85c09f7fdaa212230ea4.json",
+					"name" : "test_test_SingleLinkedList_main",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructures",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-d47ac180d1255ed8ce51.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-9a3b7cbc09ca1dab68b0.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_1_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_1_main-Release-4a396e300f494a549c95.json",
+					"name" : "ex_week3_T3_1_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_2_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_2_main-Release-ed2f4095f117503f3af6.json",
+					"name" : "ex_week3_T3_2_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_3_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_3_main-Release-183a99a295dc1ae31ff6.json",
+					"name" : "ex_week3_T3_3_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_4_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_4_main-Release-5df79bb8893c973dd993.json",
+					"name" : "ex_week3_T3_4_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_5_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_5_main-Release-83714753e7918c3f2906.json",
+					"name" : "ex_week3_T3_5_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_6_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_6_main-Release-c11dc0ffc0f9975546a0.json",
+					"name" : "ex_week3_T3_6_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_DoubleLinkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_DoubleLinkedList_main-Release-80981941d438386f4747.json",
+					"name" : "test_test_DoubleLinkedList_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_LinkedStack_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_LinkedStack_main-Release-a8506e5dfac06879d7e9.json",
+					"name" : "test_test_LinkedStack_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_SingleLinkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_SingleLinkedList_main-Release-2681c463177ce4fc0dcc.json",
+					"name" : "test_test_SingleLinkedList_main",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructures",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d47ac180d1255ed8ce51.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-9a3b7cbc09ca1dab68b0.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_1_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_1_main-MinSizeRel-125dc5be8aa0dff7c335.json",
+					"name" : "ex_week3_T3_1_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_2_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_2_main-MinSizeRel-24f86b30b5b0da71424a.json",
+					"name" : "ex_week3_T3_2_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_3_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_3_main-MinSizeRel-7acf80d73d9dd6d09447.json",
+					"name" : "ex_week3_T3_3_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_4_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_4_main-MinSizeRel-f2f424903467a9b09f10.json",
+					"name" : "ex_week3_T3_4_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_5_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_5_main-MinSizeRel-8d3b9ef0221888e1b2fe.json",
+					"name" : "ex_week3_T3_5_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_6_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_6_main-MinSizeRel-fee5f94992437f98e60a.json",
+					"name" : "ex_week3_T3_6_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_DoubleLinkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_DoubleLinkedList_main-MinSizeRel-3bbb464c004d94cef965.json",
+					"name" : "test_test_DoubleLinkedList_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_LinkedStack_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_LinkedStack_main-MinSizeRel-8e3d0b12b696ef443c62.json",
+					"name" : "test_test_LinkedStack_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_SingleLinkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_SingleLinkedList_main-MinSizeRel-7c2264d6a672d2fb7b60.json",
+					"name" : "test_test_SingleLinkedList_main",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructures",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d47ac180d1255ed8ce51.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-9a3b7cbc09ca1dab68b0.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_1_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_1_main-RelWithDebInfo-340a34d19f6e6219734f.json",
+					"name" : "ex_week3_T3_1_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_2_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_2_main-RelWithDebInfo-ddaebdfc626b4ffaaf1a.json",
+					"name" : "ex_week3_T3_2_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_3_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_3_main-RelWithDebInfo-8ed3a8a3e039b4f30928.json",
+					"name" : "ex_week3_T3_3_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_4_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_4_main-RelWithDebInfo-04b0b569bc497f84fe15.json",
+					"name" : "ex_week3_T3_4_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_5_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_5_main-RelWithDebInfo-f2eef22d6de01be274c1.json",
+					"name" : "ex_week3_T3_5_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_week3_T3_6_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_week3_T3_6_main-RelWithDebInfo-8635051cf48150e99f73.json",
+					"name" : "ex_week3_T3_6_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_DoubleLinkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_DoubleLinkedList_main-RelWithDebInfo-7186f1846e3cfba20fb4.json",
+					"name" : "test_test_DoubleLinkedList_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_LinkedStack_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_LinkedStack_main-RelWithDebInfo-71f7ea1d9e412b1748cb.json",
+					"name" : "test_test_LinkedStack_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_test_SingleLinkedList_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_test_SingleLinkedList_main-RelWithDebInfo-3736aa8c4762319d208f.json",
+					"name" : "test_test_SingleLinkedList_main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Code/VSCode/DataStructures/build",
+		"source" : "E:/Code/VSCode/DataStructures"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

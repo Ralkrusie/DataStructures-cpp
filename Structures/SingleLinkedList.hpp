@@ -1,5 +1,4 @@
-#ifndef DATASTRUCTURE_SINGLELINKEDLIST_H
-#define DATASTRUCTURE_SINGLELINKEDLIST_H
+#pragma once
 
 #include <cstddef> // for std::size_t
 #include <utility> // for std::move
@@ -34,6 +33,11 @@ public:
 
 	// 清空链表并释放节点。
 	void clear();
+
+	// 2020/11/17：新增功能，稳定分区
+	// 原地稳定分区：将 < pivot 的元素移动到前半段，保持各自相对顺序。
+	// 该操作会在内部短暂断链（m_next 置空），但不会暴露节点指针。
+	bool stablePartitionLessThan(const T &pivot);
 
 	//链表长度和空表判定：O(1)，因为我们维护了 m_size 变量。
 	// [[nodiscard]] 提醒调用者不要忽略返回值。
@@ -246,6 +250,58 @@ void SingleLinkedList<T>::clear() {
 	m_size = 0;
 }
 
+// 原地稳定分区：不分配新节点，只重连 next 指针。
+template<typename T>
+bool SingleLinkedList<T>::stablePartitionLessThan(const T &pivot) {
+	if (m_size < 2) {
+		return true; // 0 或 1 个元素天然满足分区要求。
+	}
+
+	Node *lessHead = nullptr;
+	Node *lessTail = nullptr;
+	Node *greaterEqualHead = nullptr;
+	Node *greaterEqualTail = nullptr;
+
+	Node *current = m_head;
+	while (current != nullptr) {
+		Node *next = current->m_next;
+
+		// 先摘下当前节点，避免误连成环。
+		current->m_next = nullptr;
+
+		if (current->m_value < pivot) {
+			if (lessTail == nullptr) {
+				lessHead = current;
+				lessTail = current;
+			} else {
+				lessTail->m_next = current;
+				lessTail = current;
+			}
+		} else {
+			if (greaterEqualTail == nullptr) {
+				greaterEqualHead = current;
+				greaterEqualTail = current;
+			} else {
+				greaterEqualTail->m_next = current;
+				greaterEqualTail = current;
+			}
+		}
+
+		current = next;
+	}
+
+	if (lessHead == nullptr) {
+		m_head = greaterEqualHead;
+		m_tail = greaterEqualTail;
+		return true;
+	}
+
+	m_head = lessHead;
+	lessTail->m_next = greaterEqualHead;
+	m_tail = (greaterEqualTail != nullptr) ? greaterEqualTail : lessTail;
+	return true;
+}
+
 // O(1)：直接返回记录的节点数量。
 template<typename T>
 std::size_t SingleLinkedList<T>::size() const {
@@ -309,5 +365,3 @@ void SingleLinkedList<T>::moveFrom(SingleLinkedList &other) noexcept {
 	other.m_tail = nullptr;
 	other.m_size = 0;
 }
-
-#endif //DATASTRUCTURE_SINGLELINKEDLIST_H
