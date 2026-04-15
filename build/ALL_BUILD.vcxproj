@@ -174,6 +174,230 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_experiment1_T1_main.vcxproj">
+      <Project>{88A7EC7A-8997-3C39-81AA-777C1B3E5E49}</Project>
+      <Name>ex_experiment1_T1_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_experiment1_T2_correct_main.vcxproj">
+      <Project>{EB48A241-BAA2-3216-A2C8-3E5FE447D721}</Project>
+      <Name>ex_experiment1_T2_correct_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_experiment1_T2_main.vcxproj">
+      <Project>{39E978CA-607E-37E7-9C5B-2F8DB5093921}</Project>
+      <Name>ex_experiment1_T2_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET10_main.vcxproj">
+      <Project>{BDC9DBDA-BAA6-3576-8E14-01360A6719AA}</Project>
+      <Name>ex_extra_ET10_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET11_main.vcxproj">
+      <Project>{F15AECA8-6F0B-36F1-87BB-F6F8D8CCC7E4}</Project>
+      <Name>ex_extra_ET11_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET12_main.vcxproj">
+      <Project>{DBE9BB4E-2892-328F-AD58-5862A7DE09FB}</Project>
+      <Name>ex_extra_ET12_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET13_main.vcxproj">
+      <Project>{288B069C-1B07-3D2A-AED9-BB2924BCCC09}</Project>
+      <Name>ex_extra_ET13_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET14_main.vcxproj">
+      <Project>{3568B273-4986-34CB-816C-B116E46E3D53}</Project>
+      <Name>ex_extra_ET14_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET15_main.vcxproj">
+      <Project>{D759EDF5-D961-3EFD-8E3E-67779D9C003D}</Project>
+      <Name>ex_extra_ET15_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET16_main.vcxproj">
+      <Project>{48DC05A4-AD50-3375-B89A-A4D964647741}</Project>
+      <Name>ex_extra_ET16_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET17_main.vcxproj">
+      <Project>{27E10BFC-05EA-3E0F-9A9A-05F47D3AED1E}</Project>
+      <Name>ex_extra_ET17_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET18_main.vcxproj">
+      <Project>{739D7FF5-D792-306E-8E65-AD9E4E9A2DDA}</Project>
+      <Name>ex_extra_ET18_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET19_main.vcxproj">
+      <Project>{A7164941-AE20-3678-92BF-F266246A98E0}</Project>
+      <Name>ex_extra_ET19_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET1_main.vcxproj">
+      <Project>{21C4F300-D499-315D-8C0C-DFBB10C0A0AB}</Project>
+      <Name>ex_extra_ET1_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET20_main.vcxproj">
+      <Project>{FDCA6265-287A-3C02-A3AB-6E7E1031C325}</Project>
+      <Name>ex_extra_ET20_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET21_main.vcxproj">
+      <Project>{E775F92D-FF5A-3204-B007-12445EDA77AF}</Project>
+      <Name>ex_extra_ET21_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET22_main.vcxproj">
+      <Project>{B0811CD1-52E3-32FD-A7A4-D335821FCE1B}</Project>
+      <Name>ex_extra_ET22_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET23_main.vcxproj">
+      <Project>{5A3DB7F3-FEAF-3B25-A089-EE161A4F722B}</Project>
+      <Name>ex_extra_ET23_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET24_main.vcxproj">
+      <Project>{C7D3269E-9DB2-3BA1-9128-0CEA5BEB3D2C}</Project>
+      <Name>ex_extra_ET24_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET25_main.vcxproj">
+      <Project>{24CB2D51-7B52-3DA1-BB78-ABC9D85799C8}</Project>
+      <Name>ex_extra_ET25_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET26_main.vcxproj">
+      <Project>{A4DBAD9B-124E-3967-A3D9-7B5915173FA8}</Project>
+      <Name>ex_extra_ET26_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET27_main.vcxproj">
+      <Project>{411A92D1-924F-37E4-BCB9-75EBAF897B3A}</Project>
+      <Name>ex_extra_ET27_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET28_main.vcxproj">
+      <Project>{DB519517-2E78-3EBC-918A-F55ADC2E0DFA}</Project>
+      <Name>ex_extra_ET28_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET29_main.vcxproj">
+      <Project>{4DBCEFFE-7143-3D41-9D72-1818739A9218}</Project>
+      <Name>ex_extra_ET29_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET2_main.vcxproj">
+      <Project>{3AA29540-3800-35F9-9D89-29281AEAAC60}</Project>
+      <Name>ex_extra_ET2_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET30_main.vcxproj">
+      <Project>{302E2F30-5916-3DA3-82D5-A1485A21CC20}</Project>
+      <Name>ex_extra_ET30_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET31_main.vcxproj">
+      <Project>{D6D66059-BC16-365E-A6C6-A1D2900433E3}</Project>
+      <Name>ex_extra_ET31_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET32_main.vcxproj">
+      <Project>{056E0215-B0B8-3C32-9415-E03359627EDD}</Project>
+      <Name>ex_extra_ET32_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET33_main.vcxproj">
+      <Project>{033BE005-687A-3864-BFE0-A15D53312176}</Project>
+      <Name>ex_extra_ET33_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET34_main.vcxproj">
+      <Project>{17400933-5806-39B0-860F-9486510E667D}</Project>
+      <Name>ex_extra_ET34_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET35_main.vcxproj">
+      <Project>{652AF3C2-EEF0-3B4A-8E13-308F251AF29F}</Project>
+      <Name>ex_extra_ET35_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET36_main.vcxproj">
+      <Project>{ED27A370-5ED2-389A-A25A-72C2FFC45BEE}</Project>
+      <Name>ex_extra_ET36_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET37_main.vcxproj">
+      <Project>{0E9947E4-7376-3388-A5E8-BFBD43B5835E}</Project>
+      <Name>ex_extra_ET37_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET38_main.vcxproj">
+      <Project>{FB36EE9B-CADF-37EC-841D-75B433047B73}</Project>
+      <Name>ex_extra_ET38_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET39_main.vcxproj">
+      <Project>{13568B85-9329-3A76-BACC-57B29B18B21F}</Project>
+      <Name>ex_extra_ET39_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET3_main.vcxproj">
+      <Project>{2300A896-2BFC-30E5-BC8A-F98F3572E5D0}</Project>
+      <Name>ex_extra_ET3_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET40_main.vcxproj">
+      <Project>{73DC24AA-38C2-3B2D-AAF2-F619564769AA}</Project>
+      <Name>ex_extra_ET40_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET41_main.vcxproj">
+      <Project>{98CA6162-9769-3CA8-9B2D-BAFC2DF8843A}</Project>
+      <Name>ex_extra_ET41_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET42_main.vcxproj">
+      <Project>{DBA6E744-B95E-3D93-8FDC-0E5DD9DC6190}</Project>
+      <Name>ex_extra_ET42_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET43_main.vcxproj">
+      <Project>{34B67C96-98A5-3B97-A628-1785C42F0812}</Project>
+      <Name>ex_extra_ET43_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET44_main.vcxproj">
+      <Project>{86E537DA-A653-3666-B2B3-C8CFE212A2A1}</Project>
+      <Name>ex_extra_ET44_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET45_main.vcxproj">
+      <Project>{D2BFB2AE-EA31-31F9-A5E4-57B828A6BA02}</Project>
+      <Name>ex_extra_ET45_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET46_main.vcxproj">
+      <Project>{7F4AA970-A78F-32DA-985B-E2565DA54C7F}</Project>
+      <Name>ex_extra_ET46_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET47_main.vcxproj">
+      <Project>{EEF83A7A-35F3-3594-A0EC-3CDD41F7A22E}</Project>
+      <Name>ex_extra_ET47_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET48_main.vcxproj">
+      <Project>{D5C627EF-AD43-35E3-B450-B7689B1B5C10}</Project>
+      <Name>ex_extra_ET48_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET49_main.vcxproj">
+      <Project>{20B2F968-A035-30C1-ABAE-1BE0EB948418}</Project>
+      <Name>ex_extra_ET49_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET4_main.vcxproj">
+      <Project>{19324C92-B49F-3A77-A191-A4735EE1CA75}</Project>
+      <Name>ex_extra_ET4_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET50_main.vcxproj">
+      <Project>{50941E17-9FC5-301D-9CB6-20909FD1C41D}</Project>
+      <Name>ex_extra_ET50_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET5_main.vcxproj">
+      <Project>{F94D9254-0B99-345E-8F1A-DA1B7BB64D8E}</Project>
+      <Name>ex_extra_ET5_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET6_main.vcxproj">
+      <Project>{7AE1DBE9-492B-3488-AA62-110A2414FE0F}</Project>
+      <Name>ex_extra_ET6_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET7_main.vcxproj">
+      <Project>{6D18337E-643F-3848-81A7-234760C8257C}</Project>
+      <Name>ex_extra_ET7_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET8_main.vcxproj">
+      <Project>{CF6D1A81-A897-320F-9AEB-365A9044E646}</Project>
+      <Name>ex_extra_ET8_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_extra_ET9_main.vcxproj">
+      <Project>{580618CB-26E7-3D90-8EBB-B21ECF674F49}</Project>
+      <Name>ex_extra_ET9_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_test1_T1_main.vcxproj">
+      <Project>{0B8F1267-C3FC-397D-A7F3-94B58B4CE835}</Project>
+      <Name>ex_test1_T1_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_test1_T2_main.vcxproj">
+      <Project>{840626A2-6A33-30FB-9D15-E8BB0DA62F6A}</Project>
+      <Name>ex_test1_T2_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_test1_T3_main.vcxproj">
+      <Project>{D12E1625-CA25-3B92-BE42-52C756640DA6}</Project>
+      <Name>ex_test1_T3_main</Name>
+    </ProjectReference>
     <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week3_T3_1_main.vcxproj">
       <Project>{7177ABD3-53B4-3A7C-81D4-63AEA2ED7318}</Project>
       <Name>ex_week3_T3_1_main</Name>
@@ -198,6 +422,94 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{471224F9-43A9-39AB-81ED-ED1BD543DF4A}</Project>
       <Name>ex_week3_T3_6_main</Name>
     </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_1_main.vcxproj">
+      <Project>{D0E1562F-F607-3D6E-949F-AD101277C83B}</Project>
+      <Name>ex_week4_T4_1_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_2_main.vcxproj">
+      <Project>{11985765-CBE5-3E0D-A438-E252A21F8DC9}</Project>
+      <Name>ex_week4_T4_2_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_3_main.vcxproj">
+      <Project>{66BB676E-5C60-3ED5-8C84-AACA606DF07F}</Project>
+      <Name>ex_week4_T4_3_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_5_main.vcxproj">
+      <Project>{43A7A939-1348-3BCB-A8BD-A2153E9DE2C1}</Project>
+      <Name>ex_week4_T4_5_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_6_main.vcxproj">
+      <Project>{5ED49CB4-A633-39D3-AAF7-5EE4F29578A2}</Project>
+      <Name>ex_week4_T4_6_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_7_main.vcxproj">
+      <Project>{8E0C7F15-01C5-3813-B1A7-748DE56C13DF}</Project>
+      <Name>ex_week4_T4_7_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_8_main.vcxproj">
+      <Project>{F5DE9137-B548-37D2-9FEF-8FE8C030A38D}</Project>
+      <Name>ex_week4_T4_8_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_9_better_main.vcxproj">
+      <Project>{3469B2F6-B884-35B0-8E4E-0E2D62566B53}</Project>
+      <Name>ex_week4_T4_9_better_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week4_T4_9_main.vcxproj">
+      <Project>{EF669AA5-CB3E-3D64-A25B-1CD61C13A34C}</Project>
+      <Name>ex_week4_T4_9_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week5_T5_1_main.vcxproj">
+      <Project>{624F013C-1D96-3072-A2A1-9B526E0A5345}</Project>
+      <Name>ex_week5_T5_1_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week5_T5_2_main.vcxproj">
+      <Project>{61371C5D-0884-3BC6-ADD2-400AD2277C4E}</Project>
+      <Name>ex_week5_T5_2_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week5_T5_3_main.vcxproj">
+      <Project>{97E437A3-D3DB-3433-93AB-7E505A48EDA9}</Project>
+      <Name>ex_week5_T5_3_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week5_T5_4_main.vcxproj">
+      <Project>{649E7EA8-3540-3B43-9375-DD1E420C8DB9}</Project>
+      <Name>ex_week5_T5_4_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week5_T5_5_main.vcxproj">
+      <Project>{740F745A-8548-3771-AA19-D9D40AE355ED}</Project>
+      <Name>ex_week5_T5_5_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week5_T5_6_main.vcxproj">
+      <Project>{351AC77C-C1CD-3D14-B94B-0D931F0101B0}</Project>
+      <Name>ex_week5_T5_6_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week5_T5_7_main.vcxproj">
+      <Project>{3C6CC4B4-3209-3D58-A9D6-9AE5A14FFDFC}</Project>
+      <Name>ex_week5_T5_7_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week5_T5_8_main.vcxproj">
+      <Project>{66325B49-4B69-3FDB-A2BB-ED996C1262DB}</Project>
+      <Name>ex_week5_T5_8_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week6_T6_1_main.vcxproj">
+      <Project>{E72BE4FA-3BE0-39F8-92A3-66D88638E7ED}</Project>
+      <Name>ex_week6_T6_1_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week6_T6_2_main.vcxproj">
+      <Project>{4CEDFFA7-A8D6-3C19-B51C-51D7A8E8EE5E}</Project>
+      <Name>ex_week6_T6_2_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week6_T6_3_main.vcxproj">
+      <Project>{52627436-E3E4-3D0A-BB14-49F7AFC004A2}</Project>
+      <Name>ex_week6_T6_3_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week6_T6_4_main.vcxproj">
+      <Project>{AE1F83A1-05A2-3F14-B1A8-B0996B7017B6}</Project>
+      <Name>ex_week6_T6_4_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\ex_week6_T6_5_main.vcxproj">
+      <Project>{794C4A4B-2F58-383E-BE68-C440399B6229}</Project>
+      <Name>ex_week6_T6_5_main</Name>
+    </ProjectReference>
     <ProjectReference Include="E:\Code\VSCode\DataStructures\build\test_test_DoubleLinkedList_main.vcxproj">
       <Project>{E4942F6B-9B79-31A3-8FDB-7F63B5868296}</Project>
       <Name>test_test_DoubleLinkedList_main</Name>
@@ -205,6 +517,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="E:\Code\VSCode\DataStructures\build\test_test_LinkedStack_main.vcxproj">
       <Project>{EF78109D-85A5-39B5-91FD-A6F0B8ED9D67}</Project>
       <Name>test_test_LinkedStack_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Code\VSCode\DataStructures\build\test_test_PointerSingleLinkedList_main.vcxproj">
+      <Project>{D60A869C-8ADE-3FE1-A220-36A78E439F66}</Project>
+      <Name>test_test_PointerSingleLinkedList_main</Name>
     </ProjectReference>
     <ProjectReference Include="E:\Code\VSCode\DataStructures\build\test_test_SingleLinkedList_main.vcxproj">
       <Project>{2A6B6C90-6511-3E5E-B184-2B4EFA5FC46D}</Project>

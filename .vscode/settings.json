@@ -4,20 +4,24 @@
 	"cmake.configureSettings": {
 		"CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
 	},
+	"cmake.configureEnvironment": {
+		"VSLANG": "1033"
+	},
+	"cmake.buildEnvironment": {
+		"VSLANG": "1033"
+	},
+	"cmake.buildToolArgs": [
+		"/nologo",
+		"/p:PreferredUILang=en-US"
+	],
+	"cmake.testEnvironment": {
+		"VSLANG": "1033"
+	},
 	"cmake.debugConfig": {
 		"console": "integratedTerminal"
 	},
 	"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
 	"files.encoding": "utf8",
-	"terminal.integrated.defaultProfile.windows": "PowerShell UTF-8",
-	"terminal.integrated.profiles.windows": {
-		"PowerShell UTF-8": {
-			"source": "PowerShell",
-			"args": [
-				"-NoExit",
-				"-Command",
-				"[Console]::InputEncoding=[System.Text.UTF8Encoding]::new(); [Console]::OutputEncoding=[System.Text.UTF8Encoding]::new(); $OutputEncoding=[System.Text.UTF8Encoding]::new(); chcp 65001 > $null"
-			]
-		}
-	}
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.automationProfile.windows": null
 }

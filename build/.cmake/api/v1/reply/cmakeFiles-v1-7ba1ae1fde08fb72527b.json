@@ -1,0 +1,257 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "E:/Code/VSCode/DataStructures/Exercises/*.cpp",
+			"paths" : 
+			[
+				"E:/Code/VSCode/DataStructures/Exercises/experiment1/T1_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/experiment1/T2_correct_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/experiment1/T2_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET10_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET11_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET12_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET13_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET14_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET15_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET16_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET17_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET18_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET19_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET1_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET20_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET21_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET22_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET23_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET24_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET25_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET26_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET27_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET28_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET29_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET2_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET30_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET31_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET32_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET33_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET34_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET35_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET36_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET37_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET38_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET39_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET3_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET40_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET41_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET42_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET43_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET44_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET45_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET46_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET47_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET48_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET49_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET4_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET50_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET5_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET6_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET7_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET8_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/extra/ET9_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/test1/T1_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/test1/T2_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/test1/T3_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week3/T3_1_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week3/T3_2_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week3/T3_3_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week3/T3_4_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week3/T3_5_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week3/T3_6_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_1_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_2_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_3_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_5_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_6_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_7_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_8_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_9_better_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week4/T4_9_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week5/T5_1_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week5/T5_2_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week5/T5_3_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week5/T5_4_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week5/T5_5_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week5/T5_6_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week5/T5_7_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week5/T5_8_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week6/T6_1_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week6/T6_2_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week6/T6_3_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week6/T6_4_main.cpp",
+				"E:/Code/VSCode/DataStructures/Exercises/week6/T6_5_main.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "E:/Code/VSCode/DataStructures/Structures/*.cpp",
+			"paths" : 
+			[
+				"E:/Code/VSCode/DataStructures/Structures/Tests/test_DoubleLinkedList_main.cpp",
+				"E:/Code/VSCode/DataStructures/Structures/Tests/test_LinkedStack_main.cpp",
+				"E:/Code/VSCode/DataStructures/Structures/Tests/test_PointerSingleLinkedList_main.cpp",
+				"E:/Code/VSCode/DataStructures/Structures/Tests/test_SingleLinkedList_main.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "E:/Code/VSCode/DataStructures/Structures/Tests/*.cpp",
+			"paths" : 
+			[
+				"E:/Code/VSCode/DataStructures/Structures/Tests/test_DoubleLinkedList_main.cpp",
+				"E:/Code/VSCode/DataStructures/Structures/Tests/test_LinkedStack_main.cpp",
+				"E:/Code/VSCode/DataStructures/Structures/Tests/test_PointerSingleLinkedList_main.cpp",
+				"E:/Code/VSCode/DataStructures/Structures/Tests/test_SingleLinkedList_main.cpp"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.1.2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.1.2/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Linker/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Linker/Windows-MSVC.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "E:/Code/VSCode/DataStructures/build",
+		"source" : "E:/Code/VSCode/DataStructures"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

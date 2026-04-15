@@ -5,6 +5,24 @@
       <FullPath>E:\Code\VSCode\DataStructures\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_extra_ET1_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_extra_ET2_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_extra_ET3_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_extra_ET4_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_extra_ET5_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_extra_ET6_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week3_T3_1_main.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
@@ -23,10 +41,37 @@
       <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week3_T3_6_main.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week4_T4_1_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week4_T4_2_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week4_T4_3_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week4_T4_5_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week4_T4_6_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week4_T4_7_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week4_T4_8_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\ex_week4_T4_9_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>E:\Code\VSCode\DataStructures\build\Debug\test_test_DoubleLinkedList_main.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>E:\Code\VSCode\DataStructures\build\Debug\test_test_LinkedStack_main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\Code\VSCode\DataStructures\build\Debug\test_test_PointerSingleLinkedList_main.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>E:\Code\VSCode\DataStructures\build\Debug\test_test_SingleLinkedList_main.exe</FullPath>

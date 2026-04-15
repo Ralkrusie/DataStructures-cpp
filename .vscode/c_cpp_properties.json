@@ -10,13 +10,11 @@
             "configurationProvider": "ms-vscode.cmake-tools",
             "includePath": [
                 "${workspaceFolder}/Structures",
-                "${workspaceFolder}/Utils",
                 "${workspaceFolder}/**"
             ],
             "browse": {
                 "path": [
                     "${workspaceFolder}/Structures",
-                    "${workspaceFolder}/Utils",
                     "${workspaceFolder}"
                 ],
                 "limitSymbolsToIncludedHeaders": true
