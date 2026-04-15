@@ -1,2 +1,17 @@
+# VS Code local settings
 .vscode/
+
+# CMake/Visual Studio build outputs
 build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
