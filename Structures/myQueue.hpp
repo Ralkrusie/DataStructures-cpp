@@ -30,9 +30,9 @@ public:
 		if (isEmpty()) {
 			return;
 		}
-		Node *oldHead = headNode;
+		Node *oldFront = headNode;
 		headNode = headNode->next;
-		delete oldHead;
+		delete oldFront;
 		--size;
 		if (headNode == nullptr) {
 			tailNode = nullptr;

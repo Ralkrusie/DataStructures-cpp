@@ -25,7 +25,7 @@
 		{
 			"id": "exePath",
 			"type": "promptString",
-			"description": "Input .exe path, e.g. ${workspaceFolder}/build/Debug/test_xxx.exe"
+			"description": "Input .exe path, e.g. ${workspaceFolder}/build/ex_week7_T7_4_main.exe"
 		}
 	]
 }

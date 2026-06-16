@@ -1,5 +1,13 @@
 {
-	"cmake.configureOnOpen": true,
+	"cmake.configureOnOpen": false,
+	"cmake.generator": "Ninja",
+	"cmake.preferredGenerators": [
+		"Ninja"
+	],
+	"cmake.defaultKit": "VS2026 x64 (Ninja)",
+	"cmake.additionalKits": [
+		"${workspaceFolder}/.vscode/cmake-kits.json"
+	],
 	"cmake.buildDirectory": "${workspaceFolder}/build",
 	"cmake.configureSettings": {
 		"CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
@@ -10,10 +18,6 @@
 	"cmake.buildEnvironment": {
 		"VSLANG": "1033"
 	},
-	"cmake.buildToolArgs": [
-		"/nologo",
-		"/p:PreferredUILang=en-US"
-	],
 	"cmake.testEnvironment": {
 		"VSLANG": "1033"
 	},

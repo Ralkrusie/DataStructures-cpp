@@ -7,7 +7,7 @@
 template <typename T>
 class myStack {
 public:
-	myStack() : topNode(nullptr), size(0) {}
+	myStack() = default;
 
 	~myStack() {
 		clear();
@@ -18,6 +18,13 @@ public:
 
 	void push(const T &x) {
 		Node *newNode = new Node(x);
+		newNode->next = topNode;
+		topNode = newNode;
+		++size;
+	}
+
+	void push(T &&x) {
+		Node *newNode = new Node(std::move(x));
 		newNode->next = topNode;
 		topNode = newNode;
 		++size;
@@ -135,10 +142,11 @@ public:
 private:
 	struct Node {
 		T value;
-		Node *next;
-		explicit Node(const T &x) : value(x), next(nullptr) {}
+		Node *next = nullptr;
+		explicit Node(const T &x) : value(x) {}
+		explicit Node(T &&x) : value(std::move(x)) {}
 	};
 
-	Node *topNode;
-	size_t size;
+	Node *topNode = nullptr;
+	size_t size = 0;
 };

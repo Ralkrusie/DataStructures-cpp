@@ -30,11 +30,39 @@ public:
 	}
 
 	void pushBack(const T &x) {
-		Node *node = new Node(x);
-		tailNode->next = node;
-		tailNode = node;
+		Node *newNode = new Node(x);
+		tailNode->next = newNode;
+		tailNode = newNode;
 		++size;
 	}
+
+	    void popFront() {
+        if (headNode.next == nullptr) {
+            return;
+        }
+        Node *target = headNode.next;
+        headNode.next = target->next;
+        if (target == tailNode) {
+            tailNode = &headNode;
+        }
+        delete target;
+        --size;
+    }
+
+    void popBack() {
+        if (headNode.next == nullptr) {
+            return;
+        }
+        Node *prev = &headNode;
+        while (prev->next != tailNode) {
+            prev = prev->next;
+        }
+        delete tailNode;
+        tailNode = prev;
+        tailNode->next = nullptr;
+        --size;
+    }
+
 
 	void clear() {
 		Node *current = headNode.next;
@@ -65,6 +93,7 @@ public:
 		}
 	}
 
+	// 在第k个结点前插入新结点，k 从 1 开始计数；非法时不操作。
 	void insertAt(int k, const T &x) {
 		if (k < 1 || static_cast<size_t>(k) > size + 1) {
 			return;
@@ -73,11 +102,11 @@ public:
 		for (int pos = 1; pos < k; ++pos) {
 			prev = prev->next;
 		}
-		Node *node = new Node(x);
-		node->next = prev->next;
-		prev->next = node;
+		Node *newNode = new Node(x);
+		newNode->next = prev->next;
+		prev->next = newNode;
 		if (prev == tailNode) {
-			tailNode = node;
+			tailNode = newNode;
 		}
 		++size;
 	}
@@ -128,12 +157,12 @@ public:
 		Node *current = headNode.next;
 		while (current != nullptr && current->next != nullptr) {
 			if (current->value == current->next->value) {
-				Node *dup = current->next;
-				current->next = dup->next;
-				if (dup == tailNode) {
+				Node *target = current->next;
+				current->next = target->next;
+				if (target == tailNode) {
 					tailNode = current;
 				}
-				delete dup;
+				delete target;
 				--size;
 			} else {
 				current = current->next;

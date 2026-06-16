@@ -45,14 +45,14 @@ public:
 		if (isEmpty()) {
 			return;
 		}
-		Node *oldHead = headNode;
+		Node *oldFront = headNode;
 		headNode = headNode->next;
 		if (headNode != nullptr) {
 			headNode->prev = nullptr;
 		} else {
 			tailNode = nullptr;
 		}
-		delete oldHead;
+		delete oldFront;
 		--size;
 	}
 
@@ -60,14 +60,14 @@ public:
 		if (isEmpty()) {
 			return;
 		}
-		Node *oldTail = tailNode;
+		Node *oldBack = tailNode;
 		tailNode = tailNode->prev;
 		if (tailNode != nullptr) {
 			tailNode->next = nullptr;
 		} else {
 			headNode = nullptr;
 		}
-		delete oldTail;
+		delete oldBack;
 		--size;
 	}
 

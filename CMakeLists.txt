@@ -6,12 +6,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Use UTF-8 source encoding under MSVC to avoid C4819 on non-ASCII comments.
+# /FI force-includes console_utf8.hpp so that every executable automatically
+# sets the console output code page to UTF-8 before main() runs — no more garbled Chinese.
 if(MSVC)
-    add_compile_options(/utf-8)
+    add_compile_options(/utf-8 /FI${CMAKE_SOURCE_DIR}/Structures/console_utf8.hpp)
 endif()
 
 option(BUILD_STRUCT_TESTS "Build executables in Structures/Tests" ON)
 option(BUILD_EXERCISES "Build executables in Exercises" ON)
+option(BUILD_ALGORITHM "Build executables in algorithm" ON)
 
 # 头文件搜索路径（容器与工具）
 set(PROJECT_INCLUDE_DIRS
@@ -38,6 +41,12 @@ endif()
 function(add_mains_from_dir prefix base_dir folder_name)
     file(GLOB_RECURSE SRCS CONFIGURE_DEPENDS ${base_dir}/*.cpp)
     foreach(src IN LISTS SRCS)
+        file(READ ${src} src_content)
+        string(FIND "${src_content}" "int main(" has_main)
+        if(has_main EQUAL -1)
+            continue()
+        endif()
+
         file(RELATIVE_PATH rel ${base_dir} ${src})
         get_filename_component(name_we ${rel} NAME_WE)
         get_filename_component(rel_dir ${rel} DIRECTORY)
@@ -62,4 +71,8 @@ endif()
 
 if(BUILD_EXERCISES)
     add_mains_from_dir(ex ${CMAKE_SOURCE_DIR}/Exercises Exercises)
+endif()
+
+if(BUILD_ALGORITHM)
+    add_mains_from_dir(algo ${CMAKE_SOURCE_DIR}/algorithm Algorithm)
 endif()
